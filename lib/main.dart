@@ -37,6 +37,54 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 2.5,
                   ),
                 ),
+                Container(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.phone,
+                        color: Colors.cyan[400],
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        '+1 647-408-3032',
+                        style: TextStyle(
+                            color: Colors.cyan.shade800,
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 20,
+                            letterSpacing: 2.5),
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.alternate_email,
+                        color: Colors.cyan[400],
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        'spotnis@uwaterloo.ca',
+                        style: TextStyle(
+                            color: Colors.cyan.shade800,
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 20,
+                            letterSpacing: 2.5),
+                      )
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
